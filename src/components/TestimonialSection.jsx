@@ -1,37 +1,34 @@
 import React, { useState } from "react";
 import TestimonialCard from "../components/TestimonialCard";
-import pf from "../assets/images/profile.jpg";
+import { FaUserCircle } from "react-icons/fa";
 
 const testimonials = [
   {
-    image: "../assets/images/profile.jpg",
     name: "Melinda Lenny",
     location: "Medan",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image:  {pf},
     name: "Jacob Stevan",
     location: "Bandung",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image:  {pf},
     name: "Roben Musstar",
     location: "Bali",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: {pf},
     name: "Alisha Pramod",
     location: "Surabaya",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
 ];
+    
 
 const TestimonialSection = () => {
   const [showAll, setShowAll] = useState(false);
