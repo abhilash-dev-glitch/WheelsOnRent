@@ -26,7 +26,7 @@ function Header() {
         {/* Desktop Logo */}
         <div className="hidden md:block">
           <img
-            src="src/assets/images/logo.png"
+            src="../assets/images/logo.png"
             alt="WheelsOnRent logo"
             className="w-[150px] object-contain"
           />
