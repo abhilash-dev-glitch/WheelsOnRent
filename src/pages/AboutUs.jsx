@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div className="pt-28 px-6 pb-16 min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       <div className="max-w-6xl mx-auto text-center">
         <img
-          src="/src/assets/images/logo.png"
+          src="../assets/images/logo.png"
           alt="WheelsOnRent Logo"
           className="mx-auto w-48 mb-6"
         />
