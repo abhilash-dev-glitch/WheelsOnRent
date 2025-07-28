@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "brand": "Lexus",
+    "model": "CT200H",
+    "type": "Automatic",
+    "price": 120,
+    "image": "/images/lexus.png"
+  },
+  {
+    "id": 2,
+    "brand": "Jaguar",
+    "model": "F-Pace",
+    "type": "Clutch",
+    "price": 132,
+    "image": "/images/jaguar.png"
+  },
+  {
+    "id": 3,
+    "brand": "Mercedes",
+    "model": "Benz",
+    "type": "Automatic",
+    "price": 132,
+    "image": "/images/benz.png"
+  }
+]
