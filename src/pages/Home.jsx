@@ -4,6 +4,7 @@ import ServiceDropdown from "../components/ServiceDropdown";
 import ContactUs from "../components/ContactUs";
 import TestimonialSection from "../components/TestimonialSection";
 import WhyUs from "../components/WhyUs";
+import {carImage} from "../src/assets/images/car.jpg"
 
 function Home() {
   const sectionRef = useRef(null);
@@ -51,7 +52,7 @@ function Home() {
         {/* Right Side - Image Block */}
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img
-            src="../assets/images/car.jpg"
+            src="{carImage}"
             alt="Car"
             className="w-[400px] h-auto rounded-xl"
           />
