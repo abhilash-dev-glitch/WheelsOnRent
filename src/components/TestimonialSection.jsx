@@ -1,30 +1,31 @@
 import React, { useState } from "react";
 import TestimonialCard from "../components/TestimonialCard";
+import pf from "../assets/images/profile.jpg";
 
 const testimonials = [
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAJEkJQ1WumU0hXNpXdgBt9NUKc0QDVIiaw&s",
+    image: {pf},
     name: "Melinda Lenny",
     location: "Medan",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAJEkJQ1WumU0hXNpXdgBt9NUKc0QDVIiaw&s",
+    image:  {pf},
     name: "Jacob Stevan",
     location: "Bandung",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAJEkJQ1WumU0hXNpXdgBt9NUKc0QDVIiaw&s",
+    image:  {pf},
     name: "Roben Musstar",
     location: "Bali",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAJEkJQ1WumU0hXNpXdgBt9NUKc0QDVIiaw&s",
+    image: {pf},
     name: "Alisha Pramod",
     location: "Surabaya",
     review:
