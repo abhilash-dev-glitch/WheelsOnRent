@@ -4,7 +4,7 @@ import pf from "../assets/images/profile.jpg";
 
 const testimonials = [
   {
-    image: {pf},
+    image: "../assets/images/profile.jpg",
     name: "Melinda Lenny",
     location: "Medan",
     review:
