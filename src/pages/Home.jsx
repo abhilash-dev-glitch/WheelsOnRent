@@ -4,7 +4,8 @@ import ServiceDropdown from "../components/ServiceDropdown";
 import ContactUs from "../components/ContactUs";
 import TestimonialSection from "../components/TestimonialSection";
 import WhyUs from "../components/WhyUs";
-import carImage from "../assets/images/car.jpg"; // ✅ Correct import
+import carImage from "../assets/images/car.jpg"; // import image as needed
+
 
 function Home() {
   const sectionRef = useRef(null);
