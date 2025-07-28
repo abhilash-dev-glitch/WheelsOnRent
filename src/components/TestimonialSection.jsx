@@ -4,28 +4,28 @@ import TestimonialCard from "../components/TestimonialCard";
 
 const testimonials = [
   {
-    image: "src/assets/images/pf.webp",
+    image: "../assets/images/pf.webp",
     name: "Melinda Lenny",
     location: "Medan",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: "src/assets/images/pf.webp",
+    image: "../assets/images/pf.webp",
     name: "Jacob Stevan",
     location: "Bandung",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: "src/assets/images/pf.webp",
+    image: "../assets/images/pf.webp",
     name: "Roben Musstar",
     location: "Bali",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: "src/assets/images/pf.webp",
+    image: "../assets/images/pf.webp",
     name: "Alisha Pramod",
     location: "Surabaya",
     review:
