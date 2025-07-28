@@ -51,7 +51,7 @@ function Home() {
         {/* Right Side - Image Block */}
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img
-            src="src/assets/images/car.jpg"
+            src="../assets/images/car.jpg"
             alt="Car"
             className="w-[400px] h-auto rounded-xl"
           />
