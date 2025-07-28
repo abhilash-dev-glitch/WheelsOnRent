@@ -4,7 +4,7 @@ import ServiceDropdown from "../components/ServiceDropdown";
 import ContactUs from "../components/ContactUs";
 import TestimonialSection from "../components/TestimonialSection";
 import WhyUs from "../components/WhyUs";
-import {carImage} from "../src/assets/images/car.jpg"
+import carImage from "../assets/images/car.jpg"; // ✅ Correct import
 
 function Home() {
   const sectionRef = useRef(null);
@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-between p-8cbg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <div className="flex flex-col md:flex-row items-center justify-between p-8 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         {/* Left Side - Text Block */}
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
@@ -52,7 +52,7 @@ function Home() {
         {/* Right Side - Image Block */}
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img
-            src="{carImage}"
+            src={carImage}
             alt="Car"
             className="w-[400px] h-auto rounded-xl"
           />
