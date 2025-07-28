@@ -1,31 +1,32 @@
 import React, { useState } from "react";
 import TestimonialCard from "../components/TestimonialCard";
+import profile from "../assets/images/pf.webp";
 
 
 const testimonials = [
   {
-    image: "../assets/images/pf.webp",
+    image: {profile},
     name: "Melinda Lenny",
     location: "Medan",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: "../assets/images/pf.webp",
+    image:  {profile},
     name: "Jacob Stevan",
     location: "Bandung",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: "../assets/images/pf.webp",
+    image:  {profile},
     name: "Roben Musstar",
     location: "Bali",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum.",
   },
   {
-    image: "../assets/images/pf.webp",
+    image: {profile},
     name: "Alisha Pramod",
     location: "Surabaya",
     review:
