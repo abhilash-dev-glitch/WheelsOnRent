@@ -15,7 +15,7 @@ const Footer = () => {
 
         {/* Brand and description */}
         <div>
-          <img src="src/assets/images/logo.png" alt="Brand Logo" className="h-20 mb-4" />
+          <img src="../assets/images/logo.png" alt="Brand Logo" className="h-20 mb-4" />
           <p className="mb-6 text-left">
             We are a well-known car rental service that has many partners in each region to connect with you to assist in your trip in meetings, events, holidays or long trips.
           </p>
