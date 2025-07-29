@@ -42,7 +42,7 @@ const Rent = () => {
   if (!car) return <p className="text-center mt-10">Loading car details...</p>;
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10cbg-white dark:bg-gray-900 text-gray-900 dark:text-gray-900">
+    <div className="max-w-4xl mx-auto px-4 py-10cbg-white dark:bg-gray-900 text-gray-900 ">
       <h2 className="text-3xl font-bold mb-6">Rent {car.name}</h2>
 
       <div className="flex flex-col sm:flex-row gap-8">
@@ -67,7 +67,7 @@ const Rent = () => {
       </div>
 
       {/* Form */}
-      <form onSubmit={handleSubmit} className="mt-10 space-y-6 bg-gray-50 p-6 rounded-xl shadow-md dark:bg-gray-700 dark:bg-gray-900">
+      <form onSubmit={handleSubmit} className="mt-10 space-y-6 bg-gray-50 p-6 rounded-xl shadow-md dark:bg-gray-500 dark:text-gray-900">
         <h3 className="text-xl font-semibold mb-4">Enter Rental Details</h3>
 
         <div className="grid sm:grid-cols-2 gap-4">
