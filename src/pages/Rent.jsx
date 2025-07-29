@@ -42,7 +42,7 @@ const Rent = () => {
   if (!car) return <p className="text-center mt-10">Loading car details...</p>;
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10cbg-white dark:bg-gray-900 text-gray-900 ">
+    <div className="max-w-4xl mx-auto px-4 py-10cbg-white dark:bg-gray-900 ">
       <h2 className="text-3xl font-bold mb-6">Rent {car.name}</h2>
 
       <div className="flex flex-col sm:flex-row gap-8">
