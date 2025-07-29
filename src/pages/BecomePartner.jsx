@@ -35,7 +35,7 @@ const BecomePartner = () => {
       <p className="text-center mb-8 text-gray-600">
         Join WheelsOnRent to grow your car rental business. Fill out the form below to apply.
       </p>
-      <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-xl shadow-lg">
+      <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-xl shadow-lg dark:border-2 dark:border-red-500">
         <div>
           <label className="block text-sm font-medium mb-1">Full Name</label>
           <input
@@ -44,7 +44,7 @@ const BecomePartner = () => {
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-4 py-2"
+            className="w-full border border-gray-300 rounded-md px-4 py-2 dark:bg-gray-900"
             placeholder="Your full name"
           />
         </div>
@@ -56,7 +56,7 @@ const BecomePartner = () => {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-4 py-2"
+            className="w-full border border-gray-300 rounded-md px-4 py-2 dark:bg-gray-900"
             placeholder="your@email.com"
           />
         </div>
@@ -68,7 +68,7 @@ const BecomePartner = () => {
             required
             value={formData.phone}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-4 py-2"
+            className="w-full border border-gray-300 rounded-md px-4 py-2 dark:bg-gray-900"
             placeholder="1234567890"
           />
         </div>
@@ -80,7 +80,7 @@ const BecomePartner = () => {
             required
             value={formData.location}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-4 py-2"
+            className="w-full border border-gray-300 rounded-md px-4 py-2 dark:bg-gray-900"
             placeholder="City / Region"
           />
         </div>
@@ -91,7 +91,7 @@ const BecomePartner = () => {
             required
             value={formData.vehicleDetails}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-4 py-2"
+            className="w-full border border-gray-300 rounded-md px-4 py-2 dark:bg-gray-900"
             placeholder="Car model, type, registration number etc."
           />
         </div>
@@ -101,7 +101,7 @@ const BecomePartner = () => {
             name="experience"
             value={formData.experience}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-4 py-2"
+            className="w-full border border-gray-300 rounded-md px-4 py-2 dark:bg-gray-900"
             placeholder="Previous rental experience"
           />
         </div>
