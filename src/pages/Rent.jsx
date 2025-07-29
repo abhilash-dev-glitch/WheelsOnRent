@@ -55,10 +55,10 @@ const Rent = () => {
 
         {/* Billing Summary */}
         <div className="space-y-3 sm:w-1/2">
-          <p><span className="font-semibold dark:text-gray-900">Brand:</span> {car.brand}</p>
-          <p><span className="font-semibold dark:text-gray-900">Price/Day:</span> ₹{car.pricePerDay}</p>
-          <p><span className="font-semibold dark:text-gray-900">Rental Days:</span> {rentalDays} days</p>
-          <p><span className="font-semibold dark:text-gray-900">Base Amount:</span> ₹{baseAmount.toFixed(2)}</p>
+          <p><span className="font-semibold dark:text-gray-400">Brand:</span> {car.brand}</p>
+          <p><span className="font-semibold dark:text-gray-400">Price/Day:</span> ₹{car.pricePerDay}</p>
+          <p><span className="font-semibold dark:text-gray-400">Rental Days:</span> {rentalDays} days</p>
+          <p><span className="font-semibold dark:text-gray-400">Base Amount:</span> ₹{baseAmount.toFixed(2)}</p>
           <p><span className="font-semibold text-yellow-700">GST (18%):</span> ₹{gstAmount.toFixed(2)}</p>
           <p className="text-green-700 font-bold text-lg">
             Total: ₹{totalAmount.toFixed(2)}
