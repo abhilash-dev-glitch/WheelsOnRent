@@ -68,15 +68,15 @@ const Cars = () => {
           placeholder="Search cars..."
           value={search}
           onChange={e => setSearch(e.target.value)}
-          className="border p-2 rounded"
+          className="border p-2 rounded dark:bg-gray-700 dark:text-gray-900"
         />
-        <select onChange={e => setBrand(e.target.value)} value={brand} className="border p-2 rounded">
+        <select onChange={e => setBrand(e.target.value)} value={brand} className="border p-2 rounded dark:bg-gray-700 dark:text-gray-900">
           <option value="">All Brands</option>
           {uniqueBrands.map(b => (
             <option key={b} value={b}>{b}</option>
           ))}
         </select>
-        <select onChange={e => setPrice(e.target.value)} value={price} className="border p-2 rounded">
+        <select onChange={e => setPrice(e.target.value)} value={price} className="border p-2 rounded dark:bg-gray-700 dark:text-gray-900">
           <option value="">All Prices</option>
           <option value="<1000">Below ₹1000</option>
           <option value="1000-3000">₹1000 - ₹3000</option>
