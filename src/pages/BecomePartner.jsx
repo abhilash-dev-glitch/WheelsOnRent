@@ -35,7 +35,7 @@ const BecomePartner = () => {
       <p className="text-center mb-8 text-gray-600">
         Join WheelsOnRent to grow your car rental business. Fill out the form below to apply.
       </p>
-      <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-xl shadow-lg dark:border-2 dark:border-red-500">
+      <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-xl shadow-lg dark:border-2 dark:border-red-500 dark:text-gray-500 dark:bg-gray-700">
         <div>
           <label className="block text-sm font-medium mb-1">Full Name</label>
           <input
