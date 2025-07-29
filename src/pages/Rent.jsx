@@ -42,7 +42,7 @@ const Rent = () => {
   if (!car) return <p className="text-center mt-10">Loading car details...</p>;
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10cbg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div className="max-w-4xl mx-auto px-4 py-10cbg-white dark:bg-gray-900 text-gray-900 dark:text-gray-900">
       <h2 className="text-3xl font-bold mb-6">Rent {car.name}</h2>
 
       <div className="flex flex-col sm:flex-row gap-8">
@@ -67,7 +67,7 @@ const Rent = () => {
       </div>
 
       {/* Form */}
-      <form onSubmit={handleSubmit} className="mt-10 space-y-6 bg-gray-50 p-6 rounded-xl shadow-md">
+      <form onSubmit={handleSubmit} className="mt-10 space-y-6 bg-gray-50 p-6 rounded-xl shadow-md dark:bg-gray-700 dark:bg-gray-900">
         <h3 className="text-xl font-semibold mb-4">Enter Rental Details</h3>
 
         <div className="grid sm:grid-cols-2 gap-4">
@@ -77,7 +77,7 @@ const Rent = () => {
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-gray-400"
               required
             />
           </div>
@@ -88,7 +88,7 @@ const Rent = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-gray-400"
               required
             />
           </div>
@@ -99,7 +99,7 @@ const Rent = () => {
               type="date"
               value={startDate}
               onChange={(e) => setStartDate(e.target.value)}
-              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-gray-400"
               required
             />
           </div>
@@ -110,7 +110,7 @@ const Rent = () => {
               type="date"
               value={endDate}
               onChange={(e) => setEndDate(e.target.value)}
-              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="w-full border px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-gray-400"
               required
             />
           </div>
