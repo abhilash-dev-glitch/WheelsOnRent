@@ -27,7 +27,7 @@ function Home() {
       <div className="flex flex-col md:flex-row items-center justify-between p-8 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         {/* Left Side - Text Block */}
         <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight dark:text-gray-500">
             We Have Prepared a Car <br /> For Your Trip
           </h1>
           <p className="text-gray-500 mt-4 text-base md:text-lg">
